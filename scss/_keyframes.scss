@@ -1,0 +1,98 @@
+@keyframes bouncy {
+    47%{
+        transform:scale(1.5,0.7);
+    }
+    80%{
+        transform:scale(1.5,0.7);
+    }
+    98%{
+        transform:scale(1,1.6);
+    }
+}
+
+@keyframes star {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes movingStar {
+    from{
+        top: 0%;
+        left: 70%;
+    }
+    to{
+        top: 400%;
+        left:-5000px;
+    }
+}
+
+@keyframes movingStar2 {
+    from{
+        top: 97%;
+        left: 0%;
+    }
+    to{
+        top: 10%;
+        left:5000px;
+    }
+}
+
+
+@keyframes fadeOut {
+    0%{
+        opacity: 0;
+        filter: blur(9px);
+        // filter: invert(100%);
+        transform:  translate3d() scale(4);
+    }
+    80%{
+        
+    }
+    100%{
+        opacity: 1;  
+    }
+}
+
+@keyframes sunRotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes r {
+    30%{
+        top: 90%;
+    }
+    40%{
+        top: 88%;
+    }
+    50%{
+        top: 90%;
+    }
+    60%{
+        top: 88%;
+    }
+    70%{
+        top: 90%;
+    }
+    80%{
+        top: 88%;
+    }
+    90%{
+        top: 90%;
+    }
+    100%{
+        top: 90%;
+    }
+}
+
